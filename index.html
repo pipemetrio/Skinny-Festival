@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <style>
+        .titulo-centrado {
+            text-align: center;
+        }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+
+<body><br><br>
+    <h1 class="titulo-centrado">
+        <p><strong>SKINNY FESTIVAL</strong></p>
+    </h1><br><br><br><br>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/cantwo1.jpg" class="d-block w-100" alt="cantwo">
+            </div>
+            <div class="carousel-item">
+                <img src="img/does.jpg" class="d-block w-100" alt="does">
+            </div>
+            <div class="carousel-item">
+                <img src="img/zurik.jpg" class="d-block w-100" alt="zurik">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <div style="width: 30%;margin-left: 30px;">
+        <p>
+        <h3>Informacion del Evento</h3>
+        </p>
+        <p style="text-align: justify;">
+            SKYNNY FESTIVAL es un evento de graffiti que se celebra cada año en la ciudad de Medellín, reuniendo a los
+            mejores exponentes a nivel nacional y cuenta con invitación especial
+            de artistas internacionales, el objetivo principal de este evento es mostrar los diferentes talentos
+            nacionales
+            y poder compartir de la experiencia de artistas internacionales.
+        </p>
+    </div>
+    <!-- <div style="width: 30%;margin-left: 30px;">
+        <video src="media/Cantwo.mp4" width="300px" controls loop autoplay muted></video> -->
+    </div>
+    </video>
+    <div style="width: 40%;margin-left: 30px;" id="carouselExampleAutoplaying" class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video src="media/Cantwo.mp4" autoplay loop muted width="300px" height="600px" class="d-block w-40"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <video src="media/Does.mp4" autoplay loop muted width="300px" height="600px" class="d-block w-40"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <video src="media/Zurik.mp4" autoplay loop muted width="300px" height="600px" class="d-block w-40"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div style="width: 30%;margin-left: 30px;">
+        <p>
+        <h3>¿Comó Participar?</h3>
+        </p>
+        <p style="text-align: justify;">
+            Los participantes seran seleccionados mediante el envio de sus bocetos al siguente correo: <a href="mailto:skinnyfestival@gmail.com">skinnyfestival@gmail.com</a>, el cual sera revisado y calificado por los jueces: ZURIK, DOES, CANTWO
+        </p>
+    </div>
+
+    
+    <div style="width: 30%;margin-left: 30px;">
+        <h4>Dudas e Inquietudes favor contactar</h4>
+        <form action="">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="" id="nombre" required>
+
+            <p>
+                <label for="correo">Correo</label><br>
+                <input type="text" name="" id="correo" required>
+            </p>
+            <p>
+                <label for="celular">Celular</label><br>
+                <input type="number" name="" id="celular" required>
+            </p>
+            <p>
+                <label for="mensaje">Escriba aquí sus dudas</label><br>
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            </p>
+            <button type="button" class="btn btn-primary">Enviar</button>
+        </form><br><br>
+    </div>
+    <div style="width: 30%;margin-left: 30px;">
+        <h4>Ubicación</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667.5384789098348!2d-75.55251375961684!3d6.250915693099044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442863fa9c5d6f%3A0x28bb57356b742b31!2sCancha%20La%20Ladera!5e0!3m2!1ses-419!2sco!4v1755722751811!5m2!1ses-419!2sco" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><br><br>
+    <div style="width: 30%;margin-left: 30px;">
+        <h4>Street View</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1755722923740!6m8!1m7!1sniwCfYiV8VCCNgRnm5b5Zw!2m2!1d6.250591987270571!2d-75.55274512369073!3f180.3159981978718!4f-8.03925086317453!5f0.7820865974627469" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div style="width: 30%;margin-left: 30px;">
+    <table border="3">
+        <tr>
+            <th>Nombre</th>
+            <th>Logo</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <th>Facebook</th>
+            <td><img src="img/Facebook.png" alt="facebook" width="30px"></td>
+            <td>https://www.facebook.com/elsuave.dk</td>
+        </tr>
+        <tr>
+            <th>Istagram</th>
+            <td><img src="img/Instagram.png" alt="instagram" width="30px"></td>
+            <td>https://www.instagram.com/nesmato1/</td>
+        </tr>
+    
+    </table>
+    </div>
+<script src="js.paginaweb.js"></script>
+</body>
+
+</html>
